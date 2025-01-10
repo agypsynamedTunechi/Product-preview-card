@@ -1,0 +1,24 @@
+@use "functions.scss" as f;
+@use "fonts.scss" as font;
+
+.price{
+    margin-bottom: f.em(14);
+    display: flex;
+    align-items: center;
+
+    .discount-price{
+        font-family: font.$secondary-font;
+        font-weight: 700;
+        font-size: f.rem(32);
+        color: var(--brand-color);
+        margin-right: f.em(5);
+    }
+
+    .original-price{
+        font-weight: 500;
+        font-size: f.rem(14);
+        // text-decoration: line-through;
+        text-decoration-line: line-through;
+        text-decoration-color: var(--text-color);
+    }
+}
