@@ -1,0 +1,23 @@
+@use "functions.scss" as f;
+.shopping-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: f.em(10) f.em(20);
+    background-color: var(--brand-color);
+    text-decoration: none;
+    border-radius: f.em(5);
+    
+
+    img{
+        width: f.rem(14);
+        height: f.rem(14);
+        margin-right: f.rem(14);
+    }
+
+    span{
+        color: var(--card-color);
+        font-weight: 500;
+
+    }
+}

@@ -1,0 +1,27 @@
+@use "../util" as u;
+
+h1,h2,p{
+    margin-top: 0;
+}
+
+h1{
+    font-weight: 500;
+    font-size: u.rem(10.5);
+    text-transform: uppercase;
+    letter-spacing: u.em(6);
+
+}
+
+h2{
+    font-size: u.rem(26);
+    font-family: u.$secondary-font;
+    font-weight: 700;
+    color: var(--product-name-color);
+    margin-bottom: u.rem(8);
+
+}
+
+p{
+    font-weight: 500;
+    line-height: 1.5;
+}

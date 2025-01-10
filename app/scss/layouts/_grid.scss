@@ -1,0 +1,19 @@
+@use "../util" as u;
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+    
+    &__coln-1{
+       border-radius: 3% 3% 0 0;
+    }
+
+    &__coln-2{
+        padding: u.rem(20);
+        background-color: var(--card-color);
+        border-radius: 0 0 3% 3%;
+
+    }
+}
