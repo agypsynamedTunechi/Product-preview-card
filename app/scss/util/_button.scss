@@ -3,10 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: f.em(15) f.em(20);
+    padding: f.rem(10) f.rem(20);
     background-color: var(--brand-color);
     text-decoration: none;
-    border-radius: f.em(5);
+    border-radius: f.rem(5);
+
+    @media (min-width: 481px){
+        margin-top: f.rem(14);
+    }
     
 
     img{

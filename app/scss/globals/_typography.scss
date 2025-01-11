@@ -19,9 +19,18 @@ h2{
     color: var(--product-name-color);
     margin-bottom: u.rem(15);
 
+    @media (min-width: 541px){
+        margin-top: u.rem(24);
+        line-height: 1;
+    }
+
 }
 
 p{
     font-weight: 500;
     line-height: 1.5;
+
+    @media (min-width: 541px){
+        line-height: 2;
+    }
 }
