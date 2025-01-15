@@ -1,26 +1,34 @@
 @use "../util" as u;
-html{
-    box-sizing: border-box;
-    font-size: 14px;
+html {
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-*,*::before,*::after{
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-body{
-    margin: 0;
-    padding: u.rem(20);
-    background-color: var(--background-color);
-    font-family: u.$primary-font;
-    color: var(--text-color);
-
+body {
+  margin: 0;
+  padding: u.rem(20);
+  background-color: var(--background-color);
+  font-family: u.$primary-font;
+  color: var(--text-color);
 }
 
-img{
-    width: 100%;
-    
+img {
+  width: 100%;
 }
 
+footer {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
 
-
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
